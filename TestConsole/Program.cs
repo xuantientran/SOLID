@@ -1,4 +1,5 @@
 ﻿using Command;
+using SOLID.DependencyInjection;
 using SOLID.DependencyInversion;
 using System;
 using System.Collections.Generic;
@@ -11,8 +12,11 @@ namespace ConsoleTest
 	{
 		static void Main(string[] args)
 		{
+			DependencyInjection.ConstructorInjection();
+			DependencyInjection.SetterInjection();
+			DependencyInjection.MethodInjection();
 			//TestCommand.Test();
-			DependencyInversion.Test();
+			//DependencyInversion.Test();
 			Console.ReadKey();
 		}
 	}

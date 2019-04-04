@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID.DependencyInversion
 {
+	//https://exceptionnotfound.net/simply-solid-the-dependency-inversion-principle/
 	/// <summary>
 	/// The Dependency Inversion Principle is comprised of two rules:
 	/// High-level modules should not depend on low-level modules.Both should depend on abstractions.

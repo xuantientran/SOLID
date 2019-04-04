@@ -6,8 +6,4 @@
     <RootNamespace>SOLID</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="DependencyInjection\" />
-  </ItemGroup>
-
 </Project>
