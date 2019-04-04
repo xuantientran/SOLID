@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <AssemblyName>Iterator</AssemblyName>
+    <RootNamespace>Iterator</RootNamespace>
+  </PropertyGroup>
+
+</Project>

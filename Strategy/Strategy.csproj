@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <AssemblyName>Strategy</AssemblyName>
+    <RootNamespace>Strategy</RootNamespace>
+  </PropertyGroup>
+
+</Project>

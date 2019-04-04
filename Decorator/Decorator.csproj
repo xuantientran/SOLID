@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <AssemblyName>Decorator</AssemblyName>
+    <RootNamespace>Decorator</RootNamespace>
+  </PropertyGroup>
+
+</Project>

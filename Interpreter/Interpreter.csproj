@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <AssemblyName>Interpreter</AssemblyName>
+    <RootNamespace>Interpreter</RootNamespace>
+  </PropertyGroup>
+
+</Project>

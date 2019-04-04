@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <AssemblyName>SOLID</AssemblyName>
+    <RootNamespace>SOLID</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DependencyInjection\" />
+  </ItemGroup>
+
+</Project>
