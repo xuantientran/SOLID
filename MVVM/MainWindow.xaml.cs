@@ -28,8 +28,8 @@ namespace MVVM
 			Database db = new Database();
 			MasterViewModel masterViewModel = new MasterViewModel(db);
 
-			this.MasterView.DataContext = masterViewModel;
-			this.DetailView.DataContext = masterViewModel;
+			MasterView.DataContext = masterViewModel;
+			DetailView.DataContext = masterViewModel;
 		}
 	}
 }
