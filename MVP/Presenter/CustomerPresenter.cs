@@ -22,6 +22,10 @@ namespace MVP.Presenter
 			UpdateCustomerListView();
 		}
 
+		/// <summary>
+		/// Obtient les données du Modèle
+		/// Alimente la Vue des données récupérées
+		/// </summary>
 		private void UpdateCustomerListView()
 		{
 			IEnumerable<string> customerNames = from customer in _repository.GetAllCustomers() select customer.Name;
@@ -30,6 +34,10 @@ namespace MVP.Presenter
 			_view.SelectedCustomer = selectedCustomer;
 		}
 
+		/// <summary>
+		/// Déclenché par un évènement de la Vue, le Présenteur récupère les données depuis le Modèle et puis met à jours la Vue
+		/// </summary>
+		/// <param name="p"></param>
 		public void UpdateCustomerView(int p)
 		{
 			// customer list can be cached instead of re-fetching the customer each time

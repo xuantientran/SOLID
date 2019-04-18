@@ -2,18 +2,24 @@
 
 namespace MVP.View
 {
-    public interface ICustomerView
-    {
-        IList<string> CustomerList { get; set; }
+	/// <summary>
+	/// Pour fournir la Vue des méthodes appelées par le Présenteur
+	/// </summary>
+	public interface ICustomerView
+	{
+		IList<string> CustomerList { get; set; }
 
-        int SelectedCustomer { get; set; }
+		int SelectedCustomer { get; set; }
 
-        string CustomerName { get; set; }
+		string CustomerName { get; set; }
 
-        string Address { get; set; }
+		string Address { get; set; }
 
-        string Phone { get; set; }
+		string Phone { get; set; }
 
-        Presenter.CustomerPresenter Presenter { set; }
-    }
+		/// <summary>
+		/// La Vue a besoin une instance du Présenter pour interagir avec lui.
+		/// </summary>
+		Presenter.CustomerPresenter Presenter { set; }
+	}
 }
