@@ -46,6 +46,11 @@ namespace MVP.View
 		public Presenter.CustomerPresenter Presenter
 		{ private get; set; }
 
+		/// <summary>
+		/// La Vue délègue l'événement au Présenteur
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		private void customerListBox_SelectedIndexChanged(object sender, EventArgs e) =>
 			// FIXME: try/catch
 			Presenter.UpdateCustomerView(customerListBox.SelectedIndex);
@@ -62,9 +67,7 @@ namespace MVP.View
 			// TODO: add cancel button
 
 			if (!_isEditMode)
-				// TODO: validation
-				// FIXME: try/catch
-				Presenter.SaveCustomer();
+					Presenter.SaveCustomer();
 		}
 	}
 }

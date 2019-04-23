@@ -16,10 +16,13 @@ namespace MVP
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
+			//Modèle
 			var repository = new Model.CustomerXmlRepository(Application.StartupPath);
+			//Vue
 			var view = new View.CustomerForm();
 
 			// TODO: IOC
+			//Présenteur
 			var presenter = new Presenter.CustomerPresenter(view, repository);
 			Application.Run(view);
 		}
