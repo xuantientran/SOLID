@@ -10,6 +10,12 @@ namespace BD
 	{
 		static void Main(string[] args)
 		{
+			Users sampleUser1 = new Users
+			{
+				Username = "Jakinator",
+				Password = "IllBeBack"
+			};
+
 		}
 	}
 }
